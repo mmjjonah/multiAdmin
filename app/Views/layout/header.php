@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -10,11 +9,8 @@
     <link rel="icon" href="<?=site_url('assets/')?>favicon.ico" type="image/x-icon">
 
     <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext"
-        rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"
-        type="text/css">
+    <link href="<?=site_url('assets/')?>fonts/fonts_text.css" rel="stylesheet" type="text/css">
+    <link href="<?=site_url('assets/')?>fonts/material_icon.css" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap Core Css -->
     <link href="<?=site_url('assets/')?>plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
