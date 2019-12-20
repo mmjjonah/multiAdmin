@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>Welcome To | Bootstrap Based Admin Template - Material Design</title>
     <!-- Favicon-->
-    <link rel="icon" href="<?=base_url('assets/')?>favicon.ico" type="image/x-icon">
+    <link rel="icon" href="<?=site_url('assets/')?>favicon.ico" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link
@@ -17,22 +17,22 @@
         type="text/css">
 
     <!-- Bootstrap Core Css -->
-    <link href="<?=base_url('assets/')?>plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="<?=site_url('assets/')?>plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Waves Effect Css -->
-    <link href="<?=base_url('assets/')?>plugins/node-waves/waves.css" rel="stylesheet" />
+    <link href="<?=site_url('assets/')?>plugins/node-waves/waves.css" rel="stylesheet" />
 
     <!-- Animation Css -->
-    <link href="<?=base_url('assets/')?>plugins/animate-css/animate.css" rel="stylesheet" />
+    <link href="<?=site_url('assets/')?>plugins/animate-css/animate.css" rel="stylesheet" />
 
     <!-- Morris Chart Css-->
-    <link href="<?=base_url('assets/')?>plugins/morrisjs/morris.css" rel="stylesheet" />
+    <link href="<?=site_url('assets/')?>plugins/morrisjs/morris.css" rel="stylesheet" />
 
     <!-- Custom Css -->
-    <link href="<?=base_url('assets/')?>css/style.css" rel="stylesheet">
+    <link href="<?=site_url('assets/')?>css/style.css" rel="stylesheet">
 
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
-    <link href="<?=base_url('assets/')?>css/themes/all-themes.css" rel="stylesheet" />
+    <link href="<?=site_url('assets/')?>css/themes/all-themes.css" rel="stylesheet" />
 </head>
 
 <body class="theme-red">
@@ -74,7 +74,7 @@
                 <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#navbar-collapse" aria-expanded="false"></a>
                 <a href="javascript:void(0);" class="bars"></a>
-                <a class="navbar-brand" href="<?=base_url('assets/')?>index.html">ADMINBSB - MATERIAL DESIGN</a>
+                <a class="navbar-brand" href="<?=site_url('assets/')?>index.html">ADMINBSB - MATERIAL DESIGN</a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -289,7 +289,7 @@
             <!-- User Info -->
             <div class="user-info">
                 <div class="image">
-                    <img src="<?= base_url('assets/') ?>images/user.png" width="48" height="48" alt="User" />
+                    <img src="<?= site_url('assets/') ?>images/user.png" width="48" height="48" alt="User" />
                 </div>
                 <div class="info-container">
                     <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">John Doe</div>
@@ -315,19 +315,19 @@
                 <ul class="list">
                     <li class="header">MAIN NAVIGATION</li>
                     <li class="active">
-                        <a href="<?=base_url('assets/')?>index.html">
+                        <a href="<?=site_url('assets/')?>index.html">
                             <i class="material-icons">home</i>
                             <span>Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="<?=base_url('assets/')?>pages/typography.html">
+                        <a href="<?=site_url('assets/')?>pages/typography.html">
                             <i class="material-icons">text_fields</i>
                             <span>Typography</span>
                         </a>
                     </li>
                     <li>
-                        <a href="<?=base_url('assets/')?>pages/helper-classes.html">
+                        <a href="<?=site_url('assets/')?>pages/helper-classes.html">
                             <i class="material-icons">layers</i>
                             <span>Helper Classes</span>
                         </a>
@@ -344,13 +344,13 @@
                                 </a>
                                 <ul class="ml-menu">
                                     <li>
-                                        <a href="<?=base_url('assets/')?>pages/widgets/cards/basic.html">Basic</a>
+                                        <a href="<?=site_url('assets/')?>pages/widgets/cards/basic.html">Basic</a>
                                     </li>
                                     <li>
-                                        <a href="<?=base_url('assets/')?>pages/widgets/cards/colored.html">Colored</a>
+                                        <a href="<?=site_url('assets/')?>pages/widgets/cards/colored.html">Colored</a>
                                     </li>
                                     <li>
-                                        <a href="<?=base_url('assets/')?>pages/widgets/cards/no-header.html">No
+                                        <a href="<?=site_url('assets/')?>pages/widgets/cards/no-header.html">No
                                             Header</a>
                                     </li>
                                 </ul>
@@ -362,23 +362,23 @@
                                 <ul class="ml-menu">
                                     <li>
                                         <a
-                                            href="<?=base_url('assets/')?>pages/widgets/infobox/infobox-1.html">Infobox-1</a>
+                                            href="<?=site_url('assets/')?>pages/widgets/infobox/infobox-1.html">Infobox-1</a>
                                     </li>
                                     <li>
                                         <a
-                                            href="<?=base_url('assets/')?>pages/widgets/infobox/infobox-2.html">Infobox-2</a>
+                                            href="<?=site_url('assets/')?>pages/widgets/infobox/infobox-2.html">Infobox-2</a>
                                     </li>
                                     <li>
                                         <a
-                                            href="<?=base_url('assets/')?>pages/widgets/infobox/infobox-3.html">Infobox-3</a>
+                                            href="<?=site_url('assets/')?>pages/widgets/infobox/infobox-3.html">Infobox-3</a>
                                     </li>
                                     <li>
                                         <a
-                                            href="<?=base_url('assets/')?>pages/widgets/infobox/infobox-4.html">Infobox-4</a>
+                                            href="<?=site_url('assets/')?>pages/widgets/infobox/infobox-4.html">Infobox-4</a>
                                     </li>
                                     <li>
                                         <a
-                                            href="<?=base_url('assets/')?>pages/widgets/infobox/infobox-5.html">Infobox-5</a>
+                                            href="<?=site_url('assets/')?>pages/widgets/infobox/infobox-5.html">Infobox-5</a>
                                     </li>
                                 </ul>
                             </li>
@@ -391,76 +391,76 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/alerts.html">Alerts</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/alerts.html">Alerts</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/animations.html">Animations</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/animations.html">Animations</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/badges.html">Badges</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/badges.html">Badges</a>
                             </li>
 
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/breadcrumbs.html">Breadcrumbs</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/breadcrumbs.html">Breadcrumbs</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/buttons.html">Buttons</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/buttons.html">Buttons</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/collapse.html">Collapse</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/collapse.html">Collapse</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/colors.html">Colors</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/colors.html">Colors</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/dialogs.html">Dialogs</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/dialogs.html">Dialogs</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/icons.html">Icons</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/icons.html">Icons</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/labels.html">Labels</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/labels.html">Labels</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/list-group.html">List Group</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/list-group.html">List Group</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/media-object.html">Media Object</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/media-object.html">Media Object</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/modals.html">Modals</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/modals.html">Modals</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/notifications.html">Notifications</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/notifications.html">Notifications</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/pagination.html">Pagination</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/pagination.html">Pagination</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/preloaders.html">Preloaders</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/preloaders.html">Preloaders</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/progressbars.html">Progress Bars</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/progressbars.html">Progress Bars</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/range-sliders.html">Range Sliders</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/range-sliders.html">Range Sliders</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/sortable-nestable.html">Sortable &
+                                <a href="<?=site_url('assets/')?>pages/ui/sortable-nestable.html">Sortable &
                                     Nestable</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/tabs.html">Tabs</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/tabs.html">Tabs</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/thumbnails.html">Thumbnails</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/thumbnails.html">Thumbnails</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/tooltips-popovers.html">Tooltips &
+                                <a href="<?=site_url('assets/')?>pages/ui/tooltips-popovers.html">Tooltips &
                                     Popovers</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/ui/waves.html">Waves</a>
+                                <a href="<?=site_url('assets/')?>pages/ui/waves.html">Waves</a>
                             </li>
                         </ul>
                     </li>
@@ -471,24 +471,24 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/forms/basic-form-elements.html">Basic Form
+                                <a href="<?=site_url('assets/')?>pages/forms/basic-form-elements.html">Basic Form
                                     Elements</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/forms/advanced-form-elements.html">Advanced Form
+                                <a href="<?=site_url('assets/')?>pages/forms/advanced-form-elements.html">Advanced Form
                                     Elements</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/forms/form-examples.html">Form Examples</a>
+                                <a href="<?=site_url('assets/')?>pages/forms/form-examples.html">Form Examples</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/forms/form-validation.html">Form Validation</a>
+                                <a href="<?=site_url('assets/')?>pages/forms/form-validation.html">Form Validation</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/forms/form-wizard.html">Form Wizard</a>
+                                <a href="<?=site_url('assets/')?>pages/forms/form-wizard.html">Form Wizard</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/forms/editors.html">Editors</a>
+                                <a href="<?=site_url('assets/')?>pages/forms/editors.html">Editors</a>
                             </li>
                         </ul>
                     </li>
@@ -499,14 +499,14 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/tables/normal-tables.html">Normal Tables</a>
+                                <a href="<?=site_url('assets/')?>pages/tables/normal-tables.html">Normal Tables</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/tables/jquery-datatable.html">Jquery
+                                <a href="<?=site_url('assets/')?>pages/tables/jquery-datatable.html">Jquery
                                     Datatables</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/tables/editable-table.html">Editable Tables</a>
+                                <a href="<?=site_url('assets/')?>pages/tables/editable-table.html">Editable Tables</a>
                             </li>
                         </ul>
                     </li>
@@ -517,10 +517,10 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/medias/image-gallery.html">Image Gallery</a>
+                                <a href="<?=site_url('assets/')?>pages/medias/image-gallery.html">Image Gallery</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/medias/carousel.html">Carousel</a>
+                                <a href="<?=site_url('assets/')?>pages/medias/carousel.html">Carousel</a>
                             </li>
                         </ul>
                     </li>
@@ -531,19 +531,19 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/charts/morris.html">Morris</a>
+                                <a href="<?=site_url('assets/')?>pages/charts/morris.html">Morris</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/charts/flot.html">Flot</a>
+                                <a href="<?=site_url('assets/')?>pages/charts/flot.html">Flot</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/charts/chartjs.html">ChartJS</a>
+                                <a href="<?=site_url('assets/')?>pages/charts/chartjs.html">ChartJS</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/charts/sparkline.html">Sparkline</a>
+                                <a href="<?=site_url('assets/')?>pages/charts/sparkline.html">Sparkline</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/charts/jquery-knob.html">Jquery Knob</a>
+                                <a href="<?=site_url('assets/')?>pages/charts/jquery-knob.html">Jquery Knob</a>
                             </li>
                         </ul>
                     </li>
@@ -554,26 +554,26 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/examples/profile.html">Profile</a>
+                                <a href="<?=site_url('assets/')?>pages/examples/profile.html">Profile</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/examples/sign-in.html">Sign In</a>
+                                <a href="<?=site_url('assets/')?>pages/examples/sign-in.html">Sign In</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/examples/sign-up.html">Sign Up</a>
+                                <a href="<?=site_url('assets/')?>pages/examples/sign-up.html">Sign Up</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/examples/forgot-password.html">Forgot
+                                <a href="<?=site_url('assets/')?>pages/examples/forgot-password.html">Forgot
                                     Password</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/examples/blank.html">Blank Page</a>
+                                <a href="<?=site_url('assets/')?>pages/examples/blank.html">Blank Page</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/examples/404.html">404 - Not Found</a>
+                                <a href="<?=site_url('assets/')?>pages/examples/404.html">404 - Not Found</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/examples/500.html">500 - Server Error</a>
+                                <a href="<?=site_url('assets/')?>pages/examples/500.html">500 - Server Error</a>
                             </li>
                         </ul>
                     </li>
@@ -584,13 +584,13 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/maps/google.html">Google Map</a>
+                                <a href="<?=site_url('assets/')?>pages/maps/google.html">Google Map</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/maps/yandex.html">YandexMap</a>
+                                <a href="<?=site_url('assets/')?>pages/maps/yandex.html">YandexMap</a>
                             </li>
                             <li>
-                                <a href="<?=base_url('assets/')?>pages/maps/jvectormap.html">jVectorMap</a>
+                                <a href="<?=site_url('assets/')?>pages/maps/jvectormap.html">jVectorMap</a>
                             </li>
                         </ul>
                     </li>
@@ -637,7 +637,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="<?=base_url('assets/')?>pages/changelogs.html">
+                        <a href="<?=site_url('assets/')?>pages/changelogs.html">
                             <i class="material-icons">update</i>
                             <span>Changelogs</span>
                         </a>
@@ -679,9 +679,9 @@
         <!-- Right Sidebar -->
         <aside id="rightsidebar" class="right-sidebar">
             <ul class="nav nav-tabs tab-nav-right" role="tablist">
-                <li role="presentation" class="active"><a href="<?=base_url('assets/')?>#skins"
+                <li role="presentation" class="active"><a href="<?=site_url('assets/')?>#skins"
                         data-toggle="tab">SKINS</a></li>
-                <li role="presentation"><a href="<?=base_url('assets/')?>#settings" data-toggle="tab">SETTINGS</a></li>
+                <li role="presentation"><a href="<?=site_url('assets/')?>#settings" data-toggle="tab">SETTINGS</a></li>
             </ul>
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane fade in active in active" id="skins">
@@ -1155,46 +1155,46 @@
     </section>
 
     <!-- Jquery Core Js -->
-    <script src="<?= base_url('assets/') ?>plugins/jquery/jquery.min.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core Js -->
-    <script src="<?= base_url('assets/') ?>plugins/bootstrap/js/bootstrap.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/bootstrap/js/bootstrap.js"></script>
 
     <!-- Select Plugin Js -->
-    <script src="<?= base_url('assets/') ?>plugins/bootstrap-select/js/bootstrap-select.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/bootstrap-select/js/bootstrap-select.js"></script>
 
     <!-- Slimscroll Plugin Js -->
-    <script src="<?= base_url('assets/') ?>plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
 
     <!-- Waves Effect Plugin Js -->
-    <script src="<?= base_url('assets/') ?>plugins/node-waves/waves.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/node-waves/waves.js"></script>
 
     <!-- Jquery CountTo Plugin Js -->
-    <script src="<?= base_url('assets/') ?>plugins/jquery-countto/jquery.countTo.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/jquery-countto/jquery.countTo.js"></script>
 
     <!-- Morris Plugin Js -->
-    <script src="<?= base_url('assets/') ?>plugins/raphael/raphael.min.js"></script>
-    <script src="<?= base_url('assets/') ?>plugins/morrisjs/morris.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/raphael/raphael.min.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/morrisjs/morris.js"></script>
 
     <!-- ChartJs -->
-    <script src="<?= base_url('assets/') ?>plugins/chartjs/Chart.bundle.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/chartjs/Chart.bundle.js"></script>
 
     <!-- Flot Charts Plugin Js -->
-    <script src="<?= base_url('assets/') ?>plugins/flot-charts/jquery.flot.js"></script>
-    <script src="<?= base_url('assets/') ?>plugins/flot-charts/jquery.flot.resize.js"></script>
-    <script src="<?= base_url('assets/') ?>plugins/flot-charts/jquery.flot.pie.js"></script>
-    <script src="<?= base_url('assets/') ?>plugins/flot-charts/jquery.flot.categories.js"></script>
-    <script src="<?= base_url('assets/') ?>plugins/flot-charts/jquery.flot.time.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/flot-charts/jquery.flot.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/flot-charts/jquery.flot.resize.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/flot-charts/jquery.flot.pie.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/flot-charts/jquery.flot.categories.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/flot-charts/jquery.flot.time.js"></script>
 
     <!-- Sparkline Chart Plugin Js -->
-    <script src="<?= base_url('assets/') ?>plugins/jquery-sparkline/jquery.sparkline.js"></script>
+    <script src="<?= site_url('assets/') ?>plugins/jquery-sparkline/jquery.sparkline.js"></script>
 
     <!-- Custom Js -->
-    <script src="<?= base_url('assets/') ?>js/admin.js"></script>
-    <script src="<?= base_url('assets/') ?>js/pages/index.js"></script>
+    <script src="<?= site_url('assets/') ?>js/admin.js"></script>
+    <script src="<?= site_url('assets/') ?>js/pages/index.js"></script>
 
     <!-- Demo Js -->
-    <script src="<?= base_url('assets/') ?>js/demo.js"></script>
+    <script src="<?= site_url('assets/') ?>js/demo.js"></script>
 </body>
 
 </html>
