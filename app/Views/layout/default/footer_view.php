@@ -1,7 +1,5 @@
         </div>
     </section>
-    <!-- Jquery Core Js -->
-    <script src="<?= site_url('public/assets/') ?>plugins/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core Js -->
     <script src="<?= site_url('public/assets/') ?>plugins/bootstrap/js/bootstrap.js"></script>
@@ -41,6 +39,14 @@
 
     <!-- Demo Js -->
     <script src="<?= site_url('public/assets/') ?>js/demo.js"></script>
+
+    <!-- Autres script js personnaliser -->
+    <?php for($i = 0; $i < sizeof($js_link); $i++): ?>
+        <script src="<?=site_url('public/assets/').$js_link[$i]?>"></script>
+    <?php endfor; ?>
+    <script type="text/javascript">
+        BASE_URL = '<?=base_url()?>/public/';
+    </script>
 </body>
 
 </html>

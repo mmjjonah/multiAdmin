@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>MultiAdmin | Dashboard</title>
+    <title>MultiAdmin | <?=$title?></title>
     <!-- Favicon-->
     <link rel="icon" href="<?=site_url('public/assets/')?>admin.ico" type="image/x-icon">
 
@@ -29,4 +29,12 @@
 
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
     <link href="<?=site_url('public/assets/')?>css/themes/all-themes.css" rel="stylesheet" />
+
+    <!-- Autres style css personnaliser -->
+    <?php for($i = 0; $i < sizeof($css_link); $i++): ?>
+        <link rel="stylesheet" type="text/css" href="<?=site_url('public/assets/').$css_link[$i]?>">
+    <?php endfor; ?>
+
+    <!-- Jquery Core Js -->
+    <script src="<?= site_url('public/assets/') ?>plugins/jquery/jquery.min.js"></script> 
 </head>

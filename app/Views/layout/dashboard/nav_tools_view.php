@@ -1,4 +1,4 @@
-<body class="theme-red">
+<body class="theme-red"> <!-- En cas de changement du theme -->
 <!-- Page Loader -->
 <div class="page-loader-wrapper">
     <div class="loader">
