@@ -188,6 +188,8 @@ class App extends BaseConfig
 	public $sessionMatchIP           = false;
 	public $sessionTimeToUpdate      = 300;
 	public $sessionRegenerateDestroy = false;
+	public $sess_use_database = true;
+	public $global_xss_filtering = true;
 
 	/*
 	|--------------------------------------------------------------------------
